@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/Styles/style.css">
+    <title>T5-120140008</title>
+</head>
+
+<body>
+    <header>
+        <div class="jumbotron">
+            <h1>Menampilkan data mahasiswa</h1>
+        </div>
+    </header>
+    <main>
+        <div class="box">
+            <label for="select">
+                <select name="pilih" id="pilih">
+                    <option value="none">Pilih Program Studi</option>
+                    <option value="IF">Teknik Informatika</option>
+                    <option value="EL">Teknik Elektro</option>
+                    <option value="SD">Sains Data</option>
+                    <option value="all">Tampilkan semua prodi</option>
+                </select>
+            </label>
+            <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama</th>
+                        <th>NIM</th>
+                        <th>Prodi</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </main>
+    <script src="Assets/Scripts/script.js" type="module"></script>
+</body>
+
+</html>
